@@ -19,7 +19,7 @@ public class PoiValidatorError implements Validator {
         PoiDTO poiDTO = (PoiDTO) target;
 
         if(poiDTO.getName() == null) {
-            errors.rejectValue("name", PoiErrors.NAME_REQUIRED.name());
+            errors.rejectValue("name", PoiErrors.NAME_REQUIRED.name(), PoiErrors.NAME_REQUIRED.getDescription());
         }
 
         if(poiDTO.getCoordenadaX() < 0 || poiDTO.getCoordenadaY() < 0) {
