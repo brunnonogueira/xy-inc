@@ -12,8 +12,8 @@ Para expor os serviços REST foi utilizado um RestController do Spring-web (PoiC
 ## 1. Requisitos e Configurações
 
 Para executar o projeto é necessária a instalação das seguintes ferramentas:
-### 1. JDK 1.8
-### 2. Maven 3.5.0+
+1. JDK 1.8
+2. Maven 3.5.0+
 
 
 ## 2. Instalação
