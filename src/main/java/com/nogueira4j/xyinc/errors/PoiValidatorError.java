@@ -1,10 +1,12 @@
-package com.nogueira4j.xyinc.api.v1.model;
+package com.nogueira4j.xyinc.errors;
 
+import com.nogueira4j.xyinc.api.v1.model.PoiDTO;
+import com.nogueira4j.xyinc.errors.PoiErrors;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 
-public class PoiDTOValidator implements Validator {
+public class PoiValidatorError implements Validator {
 
     @Override
     public boolean supports(Class<?> clazz) {

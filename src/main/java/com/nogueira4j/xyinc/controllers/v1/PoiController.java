@@ -1,7 +1,7 @@
 package com.nogueira4j.xyinc.controllers.v1;
 
 import com.nogueira4j.xyinc.api.v1.model.PoiDTO;
-import com.nogueira4j.xyinc.api.v1.model.PoiDTOValidator;
+import com.nogueira4j.xyinc.errors.PoiValidatorError;
 import com.nogueira4j.xyinc.api.v1.model.PoiListDTO;
 import com.nogueira4j.xyinc.services.PoiService;
 import io.swagger.annotations.Api;
@@ -24,7 +24,7 @@ public class PoiController {
 
     @InitBinder("poiDTO")
     protected void initBinder(WebDataBinder binder) {
-        binder.setValidator(new PoiDTOValidator());
+        binder.setValidator(new PoiValidatorError());
     }
 
     @Autowired

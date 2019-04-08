@@ -1,4 +1,4 @@
-package com.nogueira4j.xyinc.api.v1.model;
+package com.nogueira4j.xyinc.errors;
 
 public enum PoiErrors {
     NAME_REQUIRED("1000", "The attribute name is required and not null."),
