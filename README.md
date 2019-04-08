@@ -29,8 +29,11 @@ Pronto, agora o sistema está rodando na porta 8080.
 Como um dos objetivos da aplicação é que seja consumida por outras aplicações, foi disponibilizada uma documentação dos serviços. Esta documentação é acessível na URL http://localhost:8080/swagger-ui.html
 
 1.Serviço para cadastrar pontos de interesse
+
 POST - http://localhost:8080/api/v1/pois/  - Isso criará um novo poi.
+
 example | model
+
 {
   "coordenadaX": 0,
   "coordenadaY": 0,
@@ -38,13 +41,21 @@ example | model
   "poi_url": "string"
 }
 
+
 2.Serviço para listar todos os POIs cadastrados.
+
 GET - http://localhost:8080/api/v1/pois/  - Isto irá obter uma lista de pois.
+
 example | model
+
 No parameters
 
+
 3.Serviço para listar POIs por proximidade
+
 GET - http://localhost:8080/api/v1/pois/{coordenadaX}&{coordenadaY}  - Isto irá obter uma lista de clientes próximos com a coordenada.
+
 example | model
+
 coordenadaX integer($int32)
 coordenadaY integer($int32)
