@@ -6,7 +6,7 @@ Projeto consiste em criar serviços para auxiliar pessoas na localização de po
 
 Para desenvolvimento do projeto foi utilizado o Maven para gerenciamento das dependências e Sring Boot para facilitar a criação e configuração do projeto.
 
-Na persistenência de dados utilizei o H2 que facilita bastante a persistência dos modelos criados dinamicamente, além disso o H2 permite obter um acesso rapido aos dados para simulações.
+Na persistenência de dados foi utilizado o H2 que facilita bastante a persistência dos modelos criados dinamicamente, além de permitir a obtenção de acesso rápido aos dados para simulações.
 
 Para expor os serviços REST foi utilizado um RestController do Spring-web (PoiController.java).
 
