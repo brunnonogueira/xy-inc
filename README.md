@@ -4,7 +4,7 @@
 
 Projeto consiste em criar serviços para auxiliar pessoas na localização de ponto de interesse, em todo momento no projeto foi utilizado a palava (POI) para abreviar "ponto de interesse".
 
-Para desenvolvimento do projeto foi utilizado o Maven para gerenciamento das dependências. Utilizei o Sring Boot para facilitar a criação e configuração do projeto.
+Para desenvolvimento do projeto foi utilizado o Maven para gerenciamento das dependências e Sring Boot para facilitar a criação e configuração do projeto.
 
 Na persistenência de dados utilizei o H2 que facilita bastante a persistência dos modelos criados dinamicamente, além disso o H2 permite obter um acesso rapido aos dados para simulações.
 
