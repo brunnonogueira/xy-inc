@@ -30,7 +30,7 @@ Pronto, agora o sistema está rodando na porta 8080.
 ## 3. Utilização
 Como um dos objetivos da aplicação é que seja consumida por outras aplicações, foi disponibilizada uma documentação dos serviços. Esta documentação é acessível na URL http://localhost:8080/swagger-ui.html
 
-### 1. Serviço para cadastrar pontos de interesse
+### 1. Serviço para cadastrar POIs.
 
 POST - http://localhost:8080/api/v1/pois/  - Isso criará um novo poi.
 
