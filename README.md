@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/brunnonogueira/xy-inc.svg?style=svg)](https://circleci.com/gh/brunnonogueira/xy-inc)
+
 # xy-inc
 
 Projeto consiste em criar serviços para auxiliar pessoas na localização de ponto de interesse, em todo momento no projeto foi utilizado a palava (POI) para abreviar "ponto de interesse".
